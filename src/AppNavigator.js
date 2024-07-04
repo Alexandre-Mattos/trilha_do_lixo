@@ -1,11 +1,11 @@
-import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import Home from './pages/Home';
-import Configuracao from './pages/Configuracao';
-import Mapa from './pages/Mapa';
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+import Home from './pages/Home'
+import Configuracao from './pages/Configuracao'
+import Mapa from './pages/Mapa'
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator()
 
 export default function AppNavigator() {
   return (
@@ -28,5 +28,5 @@ export default function AppNavigator() {
         />
       </Stack.Navigator>
     </NavigationContainer>
-  );
+  )
 }
